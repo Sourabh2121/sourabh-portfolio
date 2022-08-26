@@ -1,0 +1,118 @@
+.carousel-caption{
+	position: absolute;s
+	top: 30%;
+	text-align: center;
+}
+.icon{
+	font-size: 50px;
+	padding: 10%;
+}
+
+.backed{
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)),url(https://preview.colorlib.com/theme/eatery/img/dishes_1.jpg);
+	background-size: 100% 100%;
+	height: 80vh;
+}
+.backed1{
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://preview.colorlib.com/theme/eatery/img/dishes_2.jpg);
+	background-size: 100% 100%;
+	height: 80vh;
+}
+.backed2{
+	background:linear-gradient(rgba(0,0,0,0.3),rgba(0,0,0,0.3)), url(https://preview.colorlib.com/theme/eatery/img/dishes_3.jpg);
+	background-size: 100% 100%;
+	height: 80vh;
+}
+.bg{
+	background:url(https://preview.colorlib.com/theme/eatery/img/dishes_1.jpg);
+	background-size: 100% 100%;
+	/*height: 70vh;*/
+}
+.bg1{
+	background: url(https://preview.colorlib.com/theme/eatery/img/dishes_2.jpg);
+	background-size: 100% 100%;
+	/*height: 70vh;*/
+}
+.bg2{
+	background: url(https://preview.colorlib.com/theme/eatery/img/dishes_3.jpg);
+	background-size: 100% 100%;
+	/*height: 70vh;*/
+}
+.bg3{
+	background: url(https://preview.colorlib.com/theme/eatery/img/dishes_4.jpg);
+	background-size: 100% 100%;
+	/*height: 100vh;*/
+}
+.bg4{
+	background: url(https://preview.colorlib.com/theme/eatery/img/dishes_1.jpg);
+	background-size: 100% 100%;
+	/*height: 100vh;*/
+}
+.bg5{
+	background: url(https://preview.colorlib.com/theme/eatery/img/dishes_2.jpg);
+	background-size: 100% 100%;
+	/*height: 100vh;*/
+}
+.paragraph{
+	font-size: 24px;
+}
+.carousel-item{
+position:relative;
+}
+.carousel-item:after {
+  content:"";
+  display:block;
+  position:absolute;
+  top:0;
+  bottom:0;
+  left:0;
+  right:0;
+  background:linear-gradient( to right ,rgba(0, 0, 0,0.3),rgba(0, 0, 0,0.3));
+}
+.eat:hover{
+  background-size: 120%;
+ background-position: center;
+}
+
+.ery{
+	width: 100px;
+	height: 100px;
+	background-color:#CF1D16; 
+	border-radius: 100%;
+	}
+	.eating:hover .ery{
+	background-color:white;
+	color: red;
+	}
+
+.img1{ 
+	background:linear-gradient( to right ,rgba(0, 0, 0,0.3),rgba(0, 0, 0,0.3)), url(https://preview.colorlib.com/theme/eatery/img/dishes_1.jpg);
+	background-size: 100% 100%;
+	height: 80vh;
+}
+.img2{
+	background:linear-gradient( to right ,rgba(0, 0, 0,0.3),rgba(0, 0, 0,0.3)), url(https://preview.colorlib.com/theme/eatery/img/dishes_2.jpg);
+	background-size: 100% 100%;
+	height: 80vh;
+}
+.img3{
+	background:linear-gradient( to right ,rgba(0, 0, 0,0.3),rgba(0, 0, 0,0.3)), url(https://preview.colorlib.com/theme/eatery/img/dishes_3.jpg);
+	background-size: 100% 100%;
+	height: 80vh;
+}
+
+@media only screen and (min-width: 1024px){
+	.txt{
+		font-size: 70px;
+	}
+	.fs{
+		font-size: 50px;
+		font-weight: bold;
+	}
+	.blr{
+		font-size: 150px;
+		text-align: center;
+		font-family:Impact;
+		color: #F7F7F7;
+	}
+}

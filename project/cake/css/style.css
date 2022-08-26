@@ -1,0 +1,85 @@
+.symbol{
+  position: absolute;
+  top: 10%;
+  right: 5%;
+}
+
+.bg3{
+  background: url(https://porus.g5plus.net/wp-content/uploads/2019/08/bg-booking-02.jpg?id=1076);
+  background-attachment: cover;
+  height: 100%;
+}
+.style{
+  font-family: 'Berkshire Swash', cursive;
+  color: #4A221A;
+}
+.paint{
+  color: #4A221A;
+}
+.shed{
+  font-family:  Lora;
+  color: #4A221A
+}
+.btn1{
+  border: 2px solid #EBCBA3;
+  color:#4A221A; 
+}
+.btn1:hover{
+  background-color:#4A221A;
+  color: white; 
+}
+a.left
+{
+    position: relative;
+}
+
+a.left:before {
+  content: "";
+  position: absolute;
+  width: 0;
+  height: 2px;
+  bottom: 0;
+  left: 0;
+  background-color:orange !important;
+  visibility: hidden;
+  transition: all 0.3s ease-in-out;
+  
+}
+a.left:hover:before {
+  visibility: visible;
+  width: 100%;
+  }
+  a.left:hover{
+    color: orange !important;
+  }
+  span{
+    color: #A88D74;
+  font-family:"Berkshire Swash"; 
+  }
+.text1{
+  /*color: #C3B1A0;*/
+  font-family:  Lora;
+}
+.text2{
+  color: #C48C51;
+}
+.news a{
+  background-color:#4A221A !important;
+  color: white;
+  border-top-right-radius: 50px !important;
+  border-bottom-right-radius: 50px !important; 
+  border: 1px solid #C48C51;
+  height: 50px;
+}
+.news input{
+   border-top-left-radius: 50px !important;
+  border-bottom-left-radius: 50px !important;
+  border: 1px solid #C48C51; 
+  height: 50px; 
+}
+
+@media only screen and (min-width: 1024px){
+  .video{
+    font-size: 45px;
+  }
+}

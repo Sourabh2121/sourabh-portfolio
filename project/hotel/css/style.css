@@ -1,0 +1,559 @@
+*{
+	margin: 0px;
+	padding: 0px;
+	box-sizing: border-box;
+}
+.container{
+        width: 100%;
+        border: 1px solid;
+}
+header{
+	width: 100%;
+	height: 70px;
+	font-size:15px; 
+	position:fixed;
+	background: white;
+	border: 1px solid;
+	box-shadow:2px 2px 4px black;
+	z-index: 9999;
+}
+header h1{
+	margin: 10px 0px 0px 10px;
+}
+header ul{
+	display: none;
+}
+.fa-bars{
+	position:absolute;
+	top: 15px;
+   right: 20px;
+   font-size: 25px;
+   color: orange;
+}
+.hero{
+	height: 300px;
+	background-image: url(../1.jpg);
+	background-size: 100% 100%;
+	text-align: center;
+	border: 1px solid;
+}
+ .hero h2{
+	font-family:Kozuka Mincho Pro;
+	color: white;
+	font-size: 25px;
+	font-weight: bold;
+	margin: 100px 0px 0px 0px;
+}
+.hero h3{
+	font-family:Microsoft JhengHei;
+	color: white;
+	font-size: 15px;
+	margin: 0px 0px 30px 0px;
+}
+
+.book{
+    margin:-50px 10px 10px 15px;
+	border-radius: 10px;
+	background-color: #fff;
+	padding: 0px 0px 0px 30px;
+}
+.book input{
+	border: 1px solid orange;
+	border-radius: 3px;
+	padding: 25px 0px 0px 50px;
+	}
+.book select{
+	border: 1px solid orange;
+	padding: 25px 0px 0px 160px;
+	border-radius: 3px;
+}
+.book button{
+	padding:10px 40px;
+	color: white;
+	font-family: 'Noto Serif';
+	font-weight: bold;
+	background: #DCA73A;
+	border: none;
+	border-radius: 3px;
+	/*text-align: center;*/
+}
+.customer{
+     height: 800px;
+     /*border: 1px solid;*/
+     text-align: center;
+     text-align: justify;
+     padding: 10px;
+}
+#common{
+	/*border:1px solid red;*/
+	padding: 10px;
+}
+#common .back{
+	display: none;
+}
+#common .ex{
+   background:#262626;
+   color: white;
+   width:200px;
+   border-radius: 5px;
+   position: relative;
+   bottom: 50px;
+	transition:1s;
+}
+.ex h4{
+	padding:20px;
+	font-size: 20px;
+}
+.ex:hover{
+      transform:scale(1.06);
+}
+.customer h3{
+	font-size: 20px;
+	color: orange;
+	 text-align: justify;
+	 margin: 0px 0px 0px 20px;
+}
+.customer h2{
+	font-family: Noto Serif;
+	font-size:25px;
+	 text-align: justify;
+	 color: #112E41;
+	 margin: 0px 0px 0px 20px;
+}
+.customer p{
+	padding:0px 40px 10px 20px;
+	font-family:Lato, sans-serif;
+}
+.customer button{
+	position: relative;
+	left: 30px;
+	bottom: 50px;
+	color: white;
+	font-family: Noto Serif;
+	font-weight: bold;
+	background: #DCA73A;
+	border: none;
+	border-radius: 3px;
+    font-size: 17px;
+    padding: 15px 40px;
+}
+.fa-chevron-right{
+	font-size: 15px;
+	padding:0px 0px 0px 10px;
+}
+.rooms div{
+	width: 100%;
+    /*border: 1px solid;*/
+    padding: 10px 10px 0px 15px;
+    transition: 2s;
+}
+.rooms img:hover{
+	transform: scale(1.02);
+}
+.rooms h4{
+	font-size: 50px;
+	color: #112E41;
+	margin: 50px 0px 0px 0px;
+	text-align: center;
+}
+.rooms p{
+     margin: 0px 30px 0px 0px;
+    font-size: 17px;
+}
+.rooms button{
+	position: relative;
+	top: 30px;
+	left: 60px;
+	color: white;
+	font-family:Noto Serif, serif;
+	background: #DCA73A;
+	border: none;
+	border-radius:3px;
+    font-size: 17px;
+   }
+ .rst{
+ 	/*border:1px solid;*/
+ 	padding: 20px;
+ 	font-family: "Noto Serif", serif;
+ }
+ .rst .r1,.r2{
+ 	display: none;
+ }
+ .rst h3{
+ 	color: #dca73a;
+ 	font-size: 18px;
+ 	margin: 20px 0px;
+ }
+ .rst h4{
+ 	color: #0b1c39;
+ 	font-size: 28px;
+ 	font-family:Lato, sans-serif;
+ 	margin: 10px 0px;
+ }
+ .rst p{
+ 	color: #778090;
+ 	margin: 20px 0px;
+ 	font-family: "Noto Serif", serif;
+ 	font-size: 16px;
+ 	line-height: 25px;
+ }
+ .rst button{
+ 	background: none;
+ 	color:orange;
+ 	border-color: orange;
+ 	border: 2px solid orange;
+ 	padding: 12px 40px;
+ 	font-size: 18px;
+ }
+.info{
+ 	text-align: center;
+ 	padding: 20px;
+ }
+ .info .fa-user-circle{
+        font-size: 100px;
+ }
+ .info p{
+ 	margin: 50px 0px;
+ 	color: #778090;
+ 	font-size: 19px;
+ 	font-family: "Noto Serif", serif;;
+ }
+ .info .fa-star{
+ 	color: orange;
+ 	margin: 0px 0px 20px 10px;
+ }
+ .blocks img{
+ 	border-radius: 10px 10px 0px 0px;
+ }
+ .blocks h2{
+           text-align: center;
+           padding: 20px 0px;
+           font-size: 34px;
+           color:#112E41;
+ }
+ .blocks button{
+     padding: 10px 30px;
+	color: white;
+	font-family: 'Noto Serif';
+	font-weight: bold;
+	background: #DCA73A;
+	border: none;
+	border-radius: 3px;
+	text-align: center;
+	margin: 0px 0px 0px 20px;
+ }
+ .blocks p{
+ 	margin:10px 0px 20px 20px;
+ 	color: #444444;
+ 	font-family: 'Lato', sans-serif;
+ 	font-weight:bold;
+ }
+ .blocks h5{
+ 	color: #6c757d;
+ 	margin: 0px 0px 20px 20px;
+ 	font-size: 18px;
+ }
+ footer{
+ 	background: #000000;
+ 	padding: 20px;
+ }
+ .f2 h2{
+ 	color: orange;
+ 	font-size: 30px;
+ 	
+ }
+ .f2 .icon{
+ 	color: white;
+ 	font-size: 30px;
+  letter-spacing: 10px;
+  margin: 10px 0px;
+ }
+ footer p{
+    color: #868c98;
+ 	line-height:30px;
+ 	font-size:19px;
+ 	text-align:left;
+ }
+ footer h4{
+ 	font-family:"Lato", sans-serif;
+ 	font-size: 25px;
+     margin: 10px 0px;
+ 	color: white;
+ }
+ footer input{
+ 	margin: 30px 0px 30px 0px;
+ 	padding: 5px 35px;
+ }
+@media only screen and (min-width:768px){
+             .fa-bars{
+             	font-size: 40px;
+             }
+             header{
+             	height: 60px;
+             }
+             .hero{
+             	height: 500px;
+             }
+             .hero h2{
+             	font-size: 50px;
+             	margin:150px 0px 0px 0px;
+             }
+             .hero h3{
+             	font-size:40px;
+             	margin:-10px 0px 0px 0px;
+             }
+             .book{
+             	border: 1px solid;
+	            margin:-140px 10px 10px 10px;
+	            border-radius: 10px;
+	            background-color: #fff;
+	            padding: 20px 0px 0px 50px;
+             }
+             .book div{
+               display:inline-block;
+              padding: 30px 0px;
+               width: 48%;
+           }
+           .book button{
+           	position: relative;
+           	top: -50px;
+           	padding: 20px 50px;
+           	font-size: 20px;
+           }
+           .rooms button{
+           	padding: 20px 30px;
+           }
+         #common img{
+         	padding:50px 0px;
+         	height: 400px;
+         	width: 450px;
+         }
+         #common .back{
+         	display:block;
+         	background:#DCA73A;
+	         width:300px;
+	         height:300px;
+         	margin: -380px 0px 0px 200px;
+         }
+         #company{
+         	padding: 40px 0px;
+         }
+         #common .ex{
+         	width: 350px;
+         	height: 130px;
+         	text-align: center;
+         	margin: -20px 0px 0px 0px;
+        }
+        .ex h4{
+        	font-size: 30px;
+        }
+        .customer h2{
+        	font-size:25px;
+        }
+        .rooms div{
+        	display:inline-block;
+        	width:49%;
+        	padding: 0px 0px 0px 30px;
+        }
+        .rooms button{
+        	margin:40px 0px 40px 200px;
+        }
+        .rst .r1,.a1{
+        	display:inline-block;
+        	padding:0px 0px 0px 30px;
+       }
+       .rst .a1{
+      position: relative;
+      background: white;
+      top: -100px;
+      right:70px;
+      padding: 10px 0px 60px 40px;
+      border-radius: 10px;
+     }
+        .rst .r2{
+        	position:relative;
+        	left: 350px;
+        	top: -75px;
+            }
+            .rst div{
+        	display:inline-block;
+        	width: 48%;
+        }
+        .rst .a2{
+      position: relative;
+      background: white;
+      top: -180px;
+      right:270px;
+      padding: 10px 0px 60px 40px;
+      border-radius: 10px;
+     
+       }
+        .info p{
+        	padding: 0px 140px;
+        	font-size: 23px;
+        }
+        .blocks h2{
+        	font-size: 50px;
+        }
+        .blocks div{
+        	display:inline-block;
+        	width: 48%;
+        	padding: 0px 0px 0px 20px;
+        }
+        .blocks button{
+        	padding: 10px;
+	color: white;
+	font-family: 'Noto Serif';
+	font-weight: bold;
+	background: #DCA73A;
+	border: none;
+	border-radius: 3px;
+	text-align: center;
+        }
+        .f1{
+        	padding: 0px 0px 0px 20px;
+        }
+        footer div{
+        	display:inline-block;
+        	width: 48%;
+        	 }
+        	}
+@media only screen and (min-width:1024px){
+	header{
+		height: 80px;
+	}
+	header .fa-bars{
+		display:none;
+	}
+	header ul{
+		display: block;
+		margin: -25px 0px 0px 250px;
+	}
+	header h1{
+		margin: 20px 0px 0px 60px;
+	}
+	ul li{
+		 display:inline-block;
+	     font-size:18px;
+	     margin:0px 0px 0px 40px;
+	     font-family:Lato, sans-serif;
+	}
+	ul li button{
+	padding: 10px;
+	color: white;
+	font-weight: bold;
+	background: #DCA73A;
+	border: none;
+	border-radius: 3px;
+	text-align: center;
+	}
+	.customer div{
+        	display: inline-block;
+        }
+	#common{
+		width: 48%;
+	}
+	#common img{
+		width: 400px;
+	}
+	#common .back{
+		margin:-390px 0px 0px 165px;
+	}
+	#common .ex{
+		margin: 0px 50px 0px 90px;
+	}
+	#company{
+		width: 48%;
+		padding:0px 100px 0px 0px;
+        }
+        .rooms{
+        	margin: -200px 0px 0px 0px;
+        }
+         .rooms button{
+        	margin: 30px 0px 30px 350px;
+        }
+        .rst .r2{
+        	display:inline-block;
+        	position: relative;
+        	left: 460px;
+        	top: -75px;
+        }
+        .rst .a2{
+        	margin: 0px 0px 0px -150px;
+        }
+        .blocks div{
+        	display:inline-block;
+        	width: 32%;
+        }
+        .blocks button{
+        	padding: 10px;
+	color: white;
+	font-family: 'Noto Serif';
+	font-weight: bold;
+	background: #DCA73A;
+	border: none;
+	border-radius: 3px;
+	text-align: center;
+        }
+        footer div{
+        	display:inline-block;
+        	width: 24%;
+        }
+}
+@media only screen and (min-width:1440px){
+	
+	header ul{
+		margin:-35px 0px 0px 350px;
+	}
+	ul li{
+		  margin:0px 0px 0px 70px;
+		}
+		.hero{
+			height: 600px;
+      margin: 0px 0px 0px 50px
+		}
+		.hero h2{
+		font-size: 70px;
+	   }
+	   .hero h3{
+	   	font-size:50px;
+	   }
+	.book {
+		width: 1100px;
+		height: 200px;
+		margin: -110px auto;
+		display: flex;
+		justify-content: space-between;
+	}
+
+	.book input {
+		padding:10px ;
+    margin: 0px 0px 0px 0px;
+
+	}
+
+        .book select{
+          width: 30px;
+        }
+        .book button{
+        	width: 150px;
+        	height: 40px;
+        	margin:90px 0px 0px 0px;
+        	padding: 5px;
+        }
+         .customer div{
+         	margin: 170px 0px 0px 0px;
+         }
+         .rooms div{
+         	width: 33%;
+         }
+         .rooms button{
+         	margin:50px 0px 100px 550px;
+         }
+         .rst .r2{
+         	margin: 40px 0px 0px 230px;
+         }
+         .rst .a2{
+         	margin: -300px 0px 0px 400px;
+         }
+	}
